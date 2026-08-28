@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página responsiva moderna em HTML, CSS e JavaScript">
+    <title>Minha Página</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav">
+            <a href="#" class="logo">Minha<span>Marca</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="tag">Bem-vindo</span>
+
+                    <h1>
+                        Uma página moderna para
+                        <span>seu projeto</span>
+                    </h1>
+
+                    <p>
+                        Desenvolva sua presença online com um site rápido,
+                        bonito e totalmente responsivo.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#servicos" class="btn btn-primary">
+                            Conheça nossos serviços
+                        </a>
+
+                        <a href="#contato" class="btn btn-secondary">
+                            Fale conosco
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="card-icon">🚀</div>
+                    <h2>Seu próximo projeto</h2>
+                    <p>
+                        Design moderno, código organizado e experiência
+                        otimizada para qualquer dispositivo.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <div class="container about-content">
+                <div>
+                    <span class="tag">Sobre nós</span>
+                    <h2>Construímos experiências digitais</h2>
+                </div>
+
+                <p>
+                    Nosso objetivo é transformar ideias em experiências
+                    digitais simples, rápidas e agradáveis. Esta estrutura
+                    pode ser personalizada para empresas, portfólios,
+                    landing pages e diversos outros projetos.
+                </p>
+            </div>
+        </section>
+
+        <section class="services" id="servicos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="tag">Serviços</span>
+                    <h2>O que podemos fazer</h2>
+                    <p>
+                        Soluções pensadas para ajudar seu projeto a crescer.
+                    </p>
+                </div>
+
+                <div class="cards">
+
+                    <article class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Desenvolvimento</h3>
+                        <p>
+                            Sites modernos, rápidos e adaptados para
+                            computadores, tablets e celulares.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Design</h3>
+                        <p>
+                            Interfaces bonitas e intuitivas para melhorar
+                            a experiência dos seus usuários.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Performance</h3>
+                        <p>
+                            Código otimizado para proporcionar carregamento
+                            rápido e excelente desempenho.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="container contact-box">
+                <div>
+                    <span class="tag">Contato</span>
+                    <h2>Vamos começar seu projeto?</h2>
+                    <p>
+                        Entre em contato e conte um pouco sobre sua ideia.
+                    </p>
+                </div>
+
+                <a href="mailto:contato@exemplo.com" class="btn btn-primary">
+                    Entrar em contato
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> MinhaMarca. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
